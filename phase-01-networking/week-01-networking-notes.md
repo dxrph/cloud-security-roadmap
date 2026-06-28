@@ -76,5 +76,22 @@ Il router di casa è il gateway perché permette ai dispositivi della LAN di usc
 
 Da completare con il comando:
 
-```cmd
-ipconfig
+## La mia rete di casa
+
+IPv4 del PC: 192.168.129.101  
+Subnet mask: 255.255.254.0  
+Gateway: fe80::d6b5:cdff:fe0b:d1a2%9  
+
+Il mio IPv4 è privato perché appartiene al range 192.168.x.x.
+
+## Gateway
+
+Il gateway è la porta di uscita della rete locale.
+
+Serve per mandare il traffico dalla mia LAN verso altre reti, come Internet.
+
+Esempio:
+
+PC → Gateway/router → Internet
+
+In casa il gateway di solito è il router.
